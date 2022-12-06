@@ -8,6 +8,8 @@
 import Foundation
 
 final class NetworkManager<T: Codable> {
+    
+    
     static func fetch(for url: URL, completion: @escaping (Result<T, NetworkError>) -> Void) {
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard error == nil else {
@@ -32,12 +34,12 @@ final class NetworkManager<T: Codable> {
             } catch let err {
                 print(String(describing: err))
                 completion(.failure(.decodingError(err: err.localizedDescription)))
+                
             }
-            
-            
         }.resume()
     }
 }
+
 
 enum NetworkError: Error {
     case invalidResponse
