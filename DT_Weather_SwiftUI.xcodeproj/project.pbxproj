@@ -19,6 +19,7 @@
 		2F26239E293FF0CD00898BB6 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26239D293FF0CD00898BB6 /* WeatherDetail.swift */; };
 		2F2623A0293FF0F100898BB6 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26239F293FF0F100898BB6 /* DailyWeather.swift */; };
 		2F2623A2293FF11C00898BB6 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2623A1293FF11C00898BB6 /* Temperature.swift */; };
+		2F2623A42940B7F200898BB6 /* CityViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2623A32940B7F200898BB6 /* CityViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2F26239D293FF0CD00898BB6 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		2F26239F293FF0F100898BB6 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
 		2F2623A1293FF11C00898BB6 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		2F2623A32940B7F200898BB6 /* CityViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		2F262391293EC32400898BB6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2F2623A32940B7F200898BB6 /* CityViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F262383293EC10000898BB6 /* ContentView.swift in Sources */,
+				2F2623A42940B7F200898BB6 /* CityViewViewModel.swift in Sources */,
 				2F26239E293FF0CD00898BB6 /* WeatherDetail.swift in Sources */,
 				2F26239A293FF02300898BB6 /* WeatherResponse.swift in Sources */,
 				2F262394293EC35500898BB6 /* API.swift in Sources */,
