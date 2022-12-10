@@ -12,9 +12,10 @@ final class CityViewViewModel: ObservableObject {
     
     @Published var weather = WeatherResponse.empty()
     
-    @Published var city: String = "San Francisco" {
+    @Published var city: String = "Richmond, VA" {
         didSet {
             // call get location here
+            getLocation()
         }
     }
     
@@ -99,7 +100,7 @@ final class CityViewViewModel: ObservableObject {
             let urlString = API.getURLFor(lat: coord.latitude, lon: coord.longitude)
                 getWeatherInternal(city: city, for: urlString)
         } else {
-            let urlString = API.getURLFor(lat: 0, lon: 0)
+            let urlString = API.getURLFor(lat: 37.5407, lon: 77.4360)
             getWeatherInternal(city: city, for: urlString)
         }
     }
@@ -167,7 +168,7 @@ final class CityViewViewModel: ObservableObject {
         case "01d":
             return Image(systemName: "sun.max.fill") //"clear_sky_day"
         case "01n":
-            return Image(systemName: "monn.fill") //"nightClearSky"
+            return Image(systemName: "moon.fill") //"nightClearSky"
         case "02d":
             return Image(systemName: "cloud.sun.fill") //"dayFewClouds"
         case "02n":

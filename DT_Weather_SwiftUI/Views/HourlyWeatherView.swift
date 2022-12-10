@@ -29,7 +29,7 @@ struct HourlyWeatherView: View {
         VStack(spacing: 20) {
             Text(hour)
             image
-                .foregroundColor(.yellow)
+                .foregroundColor(.white)
             Text(temp)
         }
         .foregroundColor(.white)

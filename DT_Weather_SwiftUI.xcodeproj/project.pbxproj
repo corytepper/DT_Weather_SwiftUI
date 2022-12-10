@@ -74,6 +74,7 @@
 		2F1823632943CDAD0020EE96 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		2F1823652943D35C0020EE96 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 		2F1823672943D7020020EE96 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		2F1823692944B0800020EE96 /* DT-Weather-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DT-Weather-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2F26237D293EC10000898BB6 /* DT_Weather_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DT_Weather_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F262380293EC10000898BB6 /* DT_Weather_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DT_Weather_SwiftUIApp.swift; sourceTree = "<group>"; };
 		2F262382293EC10000898BB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +122,7 @@
 		2F26237F293EC10000898BB6 /* DT_Weather_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2F1823692944B0800020EE96 /* DT-Weather-SwiftUI-Info.plist */,
 				2F262392293EC33000898BB6 /* LottieAnimations */,
 				2F262391293EC32400898BB6 /* ViewModels */,
 				2F262390293EC31A00898BB6 /* Views */,
@@ -454,6 +456,8 @@
 				DEVELOPMENT_TEAM = Q584HK9U5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DT-Weather-SwiftUI-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location permission for weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -483,6 +487,8 @@
 				DEVELOPMENT_TEAM = Q584HK9U5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DT-Weather-SwiftUI-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location permission for weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
